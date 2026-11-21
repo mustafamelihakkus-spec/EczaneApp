@@ -1,0 +1,8 @@
+/bin/
+/obj/
+/.vs/
+/sandbox-sql-results/
+/sandbox-sql-test/
+/sunum-ekranlari/
+/EczaneApp-offline-test.wsb
+/EczaneApp-sandbox-diagnostics.wsb
