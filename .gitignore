@@ -1,6 +1,35 @@
-/bin/
-/obj/
-/.vs/
+# .NET build output and local IDE settings
+[Bb]in/
+[Oo]bj/
+.vs/
+*.user
+*.suo
+*.pubxml.user
+/publish/
+/TestResults/
+
+# Local settings and credentials
+.env
+.env.*
+!.env.example
+appsettings.Local.json
+appsettings.*.Local.json
+appsettings.Development.json
+secrets.json
+*.pfx
+*.p12
+*.key
+
+# Local databases, backups and logs
+*.mdf
+*.ndf
+*.ldf
+*.bak
+*.bacpac
+*.trn
+*.log
+
+# Local sandbox and presentation artifacts
 /sandbox-sql-results/
 /sandbox-sql-test/
 /sunum-ekranlari/
